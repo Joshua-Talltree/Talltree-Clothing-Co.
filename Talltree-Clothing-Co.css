@@ -1,3 +1,4 @@
-body {
-    background-image: image()
+html {
+    background: url(Img/talltree1.jpeg) no-repeat center fixed;
+    background-size: cover;
 }
