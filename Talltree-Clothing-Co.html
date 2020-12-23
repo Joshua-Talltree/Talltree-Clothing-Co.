@@ -12,8 +12,8 @@
     <div class="col-12 container">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4 d-flex justify-content-center">Talltree Clothing</h1>
-                    <nav class="navbar navbar-light bg-light p-2">
+                <h1 class="display-4 d-flex justify-content-center" id="talltree-clothing">Talltree Clothing</h1>
+                    <nav class="navbar navbar-light p-2" style="background-color: transparent">
                         <div class="d-flex align-content-end">
                             <a class="navbar-brand">Main Page</a>
                             <div class="dropdown">
@@ -27,7 +27,9 @@
                                 </ul>
                             </div>
                         </div>
+                        <div>
                             <span class="material-icons md-36">perm_identity</span>
+                        </div>
                         <div>
                             <form class="form-inline">
                                 <div class="searchbar">
@@ -97,7 +99,7 @@
 
     $('#talltree-clothing').click(
         function() {
-            $(this).css('background-color', '#FF0');
+            $(this).css('background-color', 'black');
         },
 
     );
