@@ -59,6 +59,10 @@ h1 {
     color:white;
     text-decoration:none;
 }
+#lower-block {
+    background:rgba(255,255,255, 0.5);
+    opacity: inherit;
+}
 
 
 
