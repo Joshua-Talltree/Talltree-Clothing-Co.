@@ -20,7 +20,7 @@
                                 <a class="btn btn-secondary dropdown-toggle justify-content-sm-start" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown link
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <ul onclick="myProducts()" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <li><a class="dropdown-item" href="#">Shirts</a></li>
                                     <li><a class="dropdown-item" href="#">Hats</a></li>
                                     <li><a class="dropdown-item" href="#">Face Masks</a></li>
@@ -51,7 +51,7 @@
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                         </div>
                         <div class="d-grid gap-2">
-                            <button class="btn btn-primary" type="button">Submit</button>
+                            <button onclick="submitEmail()" id="newsLetter" class="btn btn-primary" type="button">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -167,6 +167,8 @@
     // $("h1, p, li").css('background-color', 'purple');
 
 </script>
+
+<script src="Talltree-Clothing.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
