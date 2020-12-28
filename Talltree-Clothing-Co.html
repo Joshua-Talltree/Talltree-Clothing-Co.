@@ -18,7 +18,7 @@
                             <a class="navbar-brand">Main Page</a>
                             <div class="dropdown">
                                 <a class="btn btn-secondary dropdown-toggle justify-content-sm-start" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown link
+                                    Choose your style!
                                 </a>
                                 <ul onclick="myProducts()" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <li><a class="dropdown-item" href="#">Shirts</a></li>
@@ -132,6 +132,11 @@
             mouseenter: function(){
                 $(this).css("color", "red");
             }
+        });
+    });
+    $(document).ready(function(){
+        $("a").change(function(){
+            $(this).css("background-color", "#D6D6FF");
         });
     });
 
